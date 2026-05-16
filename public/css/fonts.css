@@ -1,0 +1,33 @@
+/* Segoe UI Font */
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI.woff2') format('woff2'),
+         url('../fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),
+         url('../fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Instrument Sans Font */
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/InstrumentSans-Regular.woff2') format('woff2'),
+         url('../fonts/InstrumentSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/InstrumentSans-Bold.woff2') format('woff2'),
+         url('../fonts/InstrumentSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+} 

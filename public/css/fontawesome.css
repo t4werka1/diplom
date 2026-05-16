@@ -1,0 +1,221 @@
+/* Font Awesome */
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.woff2") format("woff2"),
+         url("../webfonts/fa-solid-900.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-regular-400.woff2") format("woff2"),
+         url("../webfonts/fa-regular-400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-brands-400.woff2") format("woff2"),
+         url("../webfonts/fa-brands-400.ttf") format("truetype");
+}
+
+/* Базовые стили для иконок */
+.fas, .far, .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+}
+
+/* Классы для изменения размера иконок */
+.fa-2x { font-size: 2em; }
+.fa-3x { font-size: 3em; }
+.fa-4x { font-size: 4em; }
+.fa-5x { font-size: 5em; }
+.fa-6x { font-size: 6em; }
+.fa-7x { font-size: 7em; }
+.fa-8x { font-size: 8em; }
+.fa-9x { font-size: 9em; }
+.fa-10x { font-size: 10em; }
+
+/* Иконки */
+.fa-user-circle:before { content: "\f2bd"; }
+.fa-envelope:before { content: "\f0e0"; }
+.fa-phone:before { content: "\f095"; }
+.fa-list:before { content: "\f03a"; }
+.fa-sign-out-alt:before { content: "\f2f5"; }
+.fa-ad:before { content: "\f641"; }
+.fa-heart:before { content: "\f004"; }
+.fa-inbox:before { content: "\f01c"; }
+.fa-plus:before { content: "\f067"; }
+.fa-search:before { content: "\f002"; }
+.fa-arrow-left:before { content: "\f060"; }
+.fa-times:before { content: "\f00d"; }
+.fa-save:before { content: "\f0c7"; }
+.fa-shopping-bag:before { content: "\f290"; }
+.fa-user:before { content: "\f007"; }
+.fa-check-circle:before { content: "\f058"; }
+.fa-exclamation-circle:before { content: "\f06a"; }
+.fa-image:before { content: "\f03e"; }
+.fa-check:before { content: "\f00c"; }
+.fa-paper-plane:before { content: "\f1d8"; }
+.fa-exchange-alt:before { content: "\f362"; }
+.fa-edit:before { content: "\f044"; }
+.fa-trash:before { content: "\f1f8"; }
+.fa-info-circle:before { content: "\f05a"; }
+.fa-box-open:before { content: "\f49e"; }
+.fa-folder-open:before { content: "\f07c"; }
+.fa-folder:before { content: "\f07b"; }
+.fa-map-marker-alt:before { content: "\f3c5"; }
+.fa-eye:before { content: "\f06e"; }
+.fa-chevron-left:before { content: "\f053"; }
+.fa-chevron-right:before { content: "\f054"; }
+.fa-sign-in-alt:before { content: "\f2f6"; }
+.fa-user-plus:before { content: "\f234"; }
+.fa-lock:before { content: "\f023"; }
+.fa-key:before { content: "\f084"; }
+.fa-clock:before { content: "\f017"; }
+.fa-home:before { content: "\f015"; }
+.fa-bell:before { content: "\f0f3"; }
+.fa-cog:before { content: "\f013"; }
+.fa-comment:before { content: "\f075"; }
+.fa-comments:before { content: "\f086"; }
+.fa-star:before { content: "\f005"; }
+.fa-star-half-alt:before { content: "\f5c0"; }
+.fa-thumbs-up:before { content: "\f164"; }
+.fa-thumbs-down:before { content: "\f165"; }
+.fa-share:before { content: "\f064"; }
+.fa-ellipsis-h:before { content: "\f141"; }
+.fa-ellipsis-v:before { content: "\f142"; }
+.fa-camera:before { content: "\f030"; }
+.fa-video:before { content: "\f03d"; }
+.fa-microphone:before { content: "\f130"; }
+.fa-paperclip:before { content: "\f0c6"; }
+.fa-link:before { content: "\f0c1"; }
+.fa-external-link-alt:before { content: "\f35d"; }
+.fa-download:before { content: "\f019"; }
+.fa-upload:before { content: "\f093"; }
+.fa-print:before { content: "\f02f"; }
+.fa-filter:before { content: "\f0b0"; }
+.fa-sort:before { content: "\f0dc"; }
+.fa-sort-up:before { content: "\f0de"; }
+.fa-sort-down:before { content: "\f0dd"; }
+.fa-undo:before { content: "\f0e2"; }
+.fa-redo:before { content: "\f01e"; }
+.fa-sync:before { content: "\f021"; }
+.fa-ban:before { content: "\f05e"; }
+.fa-flag:before { content: "\f024"; }
+.fa-bookmark:before { content: "\f02e"; }
+.fa-calendar:before { content: "\f133"; }
+.fa-calendar-alt:before { content: "\f073"; }
+.fa-calendar-check:before { content: "\f274"; }
+.fa-calendar-times:before { content: "\f273"; }
+.fa-tag:before { content: "\f02b"; }
+.fa-tags:before { content: "\f02c"; }
+.fa-barcode:before { content: "\f02a"; }
+.fa-qrcode:before { content: "\f029"; }
+.fa-credit-card:before { content: "\f09d"; }
+.fa-money-bill:before { content: "\f0d6"; }
+.fa-money-bill-wave:before { content: "\f53a"; }
+.fa-money-bill-alt:before { content: "\f3d1"; }
+.fa-percentage:before { content: "\f541"; }
+.fa-calculator:before { content: "\f1ec"; }
+.fa-chart-bar:before { content: "\f080"; }
+.fa-chart-line:before { content: "\f201"; }
+.fa-chart-pie:before { content: "\f200"; }
+.fa-chart-area:before { content: "\f1fe"; }
+.fa-table:before { content: "\f0ce"; }
+.fa-columns:before { content: "\f0db"; }
+.fa-th:before { content: "\f00a"; }
+.fa-th-large:before { content: "\f009"; }
+.fa-th-list:before { content: "\f00b"; }
+.fa-align-left:before { content: "\f036"; }
+.fa-align-center:before { content: "\f037"; }
+.fa-align-right:before { content: "\f038"; }
+.fa-align-justify:before { content: "\f039"; }
+.fa-bold:before { content: "\f032"; }
+.fa-italic:before { content: "\f033"; }
+.fa-underline:before { content: "\f0cd"; }
+.fa-strikethrough:before { content: "\f0cc"; }
+.fa-text-height:before { content: "\f034"; }
+.fa-text-width:before { content: "\f035"; }
+.fa-font:before { content: "\f031"; }
+.fa-list-ul:before { content: "\f0ca"; }
+.fa-list-ol:before { content: "\f0cb"; }
+.fa-outdent:before { content: "\f03b"; }
+.fa-indent:before { content: "\f03c"; }
+.fa-quote-left:before { content: "\f10d"; }
+.fa-quote-right:before { content: "\f10e"; }
+.fa-code:before { content: "\f121"; }
+.fa-code-branch:before { content: "\f126"; }
+.fa-terminal:before { content: "\f120"; }
+.fa-file:before { content: "\f15b"; }
+.fa-file-alt:before { content: "\f15c"; }
+.fa-file-archive:before { content: "\f1c6"; }
+.fa-file-audio:before { content: "\f1c7"; }
+.fa-file-code:before { content: "\f1c9"; }
+.fa-file-excel:before { content: "\f1c3"; }
+.fa-file-image:before { content: "\f1c5"; }
+.fa-file-pdf:before { content: "\f1c1"; }
+.fa-file-powerpoint:before { content: "\f1c4"; }
+.fa-file-video:before { content: "\f1c8"; }
+.fa-file-word:before { content: "\f1c2"; }
+.fa-file-upload:before { content: "\f574"; }
+.fa-file-download:before { content: "\f56d"; }
+.fa-file-export:before { content: "\f56e"; }
+.fa-file-import:before { content: "\f56f"; }
+.fa-file-invoice:before { content: "\f570"; }
+.fa-file-invoice-dollar:before { content: "\f571"; }
+.fa-file-medical:before { content: "\f477"; }
+.fa-file-medical-alt:before { content: "\f478"; }
+.fa-file-prescription:before { content: "\f572"; }
+.fa-file-signature:before { content: "\f573"; }
+.fa-file-contract:before { content: "\f56c"; }
+.fa-file-csv:before { content: "\f6dd"; }
+.fa-folder-plus:before { content: "\f65e"; }
+.fa-folder-minus:before { content: "\f65d"; }
+.fa-folder-tree:before { content: "\f802"; }
+.fa-desktop:before { content: "\f108"; }
+.fa-laptop:before { content: "\f109"; }
+.fa-tablet:before { content: "\f10a"; }
+.fa-mobile:before { content: "\f10b"; }
+.fa-mobile-alt:before { content: "\f3cd"; }
+.fa-server:before { content: "\f233"; }
+.fa-database:before { content: "\f1c0"; }
+.fa-hdd:before { content: "\f0a0"; }
+.fa-memory:before { content: "\f538"; }
+.fa-play-circle:before { content: "\f144"; }
+.fa-rocket:before { content: "\f135"; }
+.fa-laptop:before { content: "\f109"; }
+.fa-car:before { content: "\f1b9"; }
+.fa-home:before { content: "\f015"; }
+.fa-tshirt:before { content: "\f553"; }
+.fa-couch:before { content: "\f4b8"; }
+.fa-dumbbell:before { content: "\f44b"; }
+.fa-palette:before { content: "\f53f"; }
+.fa-handshake:before { content: "\f2b5"; } 
