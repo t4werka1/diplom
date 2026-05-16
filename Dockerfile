@@ -32,4 +32,4 @@ RUN a2enmod rewrite
 EXPOSE 80
 
 
-CMD php artisan config:clear && php artisan view:clear && php artisan migrate --force && apache2-foreground
+CMD php artisan migrate --force --seed && php artisan storage:link || true && apache2-foreground
