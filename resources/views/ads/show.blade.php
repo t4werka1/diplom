@@ -21,8 +21,9 @@
                          data-bs-target="#imageModal"
                          title="Нажмите, чтобы увеличить">
                 @else
-                    <div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 400px;">
-                        <i class="fas fa-image fa-3x text-muted"></i>
+                    <div class="card-img-top bg-light d-flex flex-column align-items-center justify-content-center text-muted" style="height: 400px;">
+                        <i class="fas fa-image fa-3x mb-2"></i>
+                        <span>Фото нет</span>
                     </div>
                 @endif
                 <div class="card-body">
@@ -219,4 +220,4 @@ function showPhone(button, phone) {
     filter: invert(1) grayscale(100%) brightness(200%);
 }
 </style>
-@endsection 
+@endsection
